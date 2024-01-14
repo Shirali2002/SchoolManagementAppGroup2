@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    private static final StudentController studentController = new StudentController();
+    private static final StudentController studentController = StudentController.getInstance();
 
     public static void main(String[] args) {
         // dto -> Data Transfer Object

@@ -7,7 +7,6 @@ import java.util.Objects;
 public class Student extends Human {
 
     private Long id;
-    private Subject subject;
 
     public Long getId() {
         return id;

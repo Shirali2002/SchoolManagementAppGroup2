@@ -4,7 +4,10 @@ import org.example.dto.request.AddStudentRequest;
 
 import java.util.Scanner;
 
-public class RequestBuilderUtil {
+public final class RequestBuilderUtil {
+
+    private RequestBuilderUtil() {
+    }
 
     public static AddStudentRequest buildAddStudentRequest() {
         Scanner sc = new Scanner(System.in);
